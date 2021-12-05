@@ -1,0 +1,237 @@
+body{
+    background-color:white;
+    margin: 0px;
+}
+.row{
+    margin: auto;
+    width: 100%;
+}
+
+.cus{
+    height: 300px;
+    width: 33%;
+    /*background: gray;*/
+    position: relative;
+    text-align: center;
+    justify-items: center;
+    display: block;
+    margin: auto;
+
+}
+
+
+#wcu {
+    font-family: Bahnschrift;
+    margin-top: 0px;
+    text-align: center !important;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none!important;
+    color: gray;
+}
+#login{
+    height: auto;
+    width: auto;
+}
+.btn{
+    padding: 0px 12px;
+    border-radius: 13px;
+    font-family: Bahnschrift;
+    font-size: 100%;
+    color:gray;
+}
+.text{
+    text-align: center;
+    position: absolute;
+    text-align: justify;
+}
+.minidiv1{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top:100px ;
+
+}
+.photo {
+    position: relative;
+    min-height: 290px;
+    margin-top: 30px;
+    padding: 0px;
+    width: 100%;
+    z-index: 0;
+}
+
+.macrodiv{
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    position: relative!important;
+    display: inline-block;
+    margin: 0px;
+    z-index: 1;
+
+}
+
+
+
+.mc{
+    width:40%!important;
+    border-radius: 0px;
+    min-height: 300px!important;
+    background: #333333;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+}
+.mc:hover{
+    top: -10px;
+    transition: 0.2s;
+    background: lightgrey;
+    animation-name: example;
+    animation-duration: 0.4s;
+}
+@keyframes example {
+    0%   {background:#333333;left:0px; top:0px;}
+    100% { background:lightgrey;left:0px; top:-10px;}
+}
+
+.test{
+    display: inline-block;
+    margin-top: 70px;
+    padding: 0px;
+    border: 0px;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0px;
+    width:100%;
+    overflow: hidden;
+    opacity: 1;
+}
+#myVideo:hover{
+    opacity: 1;
+}
+
+
+.us{
+    min-height: 100px;
+    background: #333333;
+    margin-bottom: 20px;
+}
+.usbtn{
+    margin: 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Bahnschrift;
+    color: azure
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-track {
+    background:none;
+}
+#b\.a\.m{
+    height: 400px;
+    width: 100%;
+    overflow: scroll;
+    background: #333333;
+}
+#BCG1
+{
+    display: none;
+    position: fixed;
+
+
+    z-index: -1;
+    bottom: 0;
+
+    min-height: 100%;
+}
+
+#BCG2
+{
+    display: none;
+    position: fixed;
+
+
+    z-index: -1;
+    bottom: 0;
+
+    min-height: 100%;
+}
+
+#BCG3
+{
+    display: none;
+    position: fixed;
+
+
+    z-index: -1;
+    bottom: 0;
+    min-height: 100%;
+
+}
+
+.students{
+    width: 60%;
+    height: 100%;
+    background: aqua;
+    justify-content: center;
+    position: relative;
+    font-family: Bahnschrift;
+}
+.welcome{
+    height: 100%;
+    width: 100%;
+    font-family: Bahnschrift;
+    display: none;
+    position: absolute;
+    z-index: 4;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+    margin: 5px;
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+    display: inline-block;
+
+
+}
+.imagesslide{
+    width: 100%;
+    margin-top: 20px;
+}
+#pic1{
+    display: block;
+}
+#pic2{
+    display: none;
+}
+#pic3{
+    display: none;
+}
+#dot1{
+    background: lightgrey;
+}
+#dot2{
+    background: lightgrey;
+}
+#dot3{
+    background: lightgrey;
+ }

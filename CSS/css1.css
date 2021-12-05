@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.Surkhay{
+    justify-content: center;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Bahnschrift;
+
+    background: #333333;
+    color: white;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    mix-blend-mode: multiply;
+}
+#MyPart{
+    width: 100%;
+    font-family: Bahnschrift;
+    font-size: 200%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+#hobby{
+    font-size: 200%;
+    font-family: Bahnschrift;
+    border-radius: 0px;
+    margin-bottom: 100px;
+}
+.vid{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+
+}
+.rbm{
+    font-size: 100%!important;
+}
+.nav{
+    width: 100%;
+    background: black;
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+}
+.nav2{
+    width: 100%;
+    font-size: 150%;
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: Bahnschrift;
+
+}
+.navik{
+    display: inline-block;
+    margin: 40px;
+    cursor: pointer;
+}
+.navigation{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.text{
+    margin-top: 10px;
+    width: 100%;
+}
+.txt{
+    text-align: center;
+}
+.mpt{
+    position: relative;
+    mix-blend-mode: multiply;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+#imgbcg1{
+    width: 100%;
+    position: absolute;
+    mix-blend-mode: multiply;
+
+}
+#FAV{
+    font-family: Bahnschrift;
+    font-size: 200%;
+    position: relative;
+    margin-top: 100px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-track {
+    background:none;
+}
